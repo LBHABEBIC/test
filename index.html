@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./styles.css">
+   <title>Ana Bebic Interview</title>
+</head>
+<body>
+  <div class = "container">
+    <header>
+     <h1>Search</h1>
+    </header>
+    <section class="input">
+      <p>Search by client name</p>
+      <input type="text" id="input" name="input">
+      <button id="button">Search</button>
+    </section>
+    <table id="myTable" class="table">
+    <tr>
+      <th>Name</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+    <tr class ="bottom" >
+      <td>John Doe</td>
+      <td>john_doe</td>
+      <td>john@example.com</td>
+     <td onclick = "myFunc()">Delete</td>
+   </tr>
+   <tr class ="bottom">
+      <td>Joe Bloggs</td>
+      <td>joe_blogs</td>
+      <td>joe@example.com</td>
+     <td onclick = "myFunc()">Delete</td>
+  </tr>
+  <tr class ="bottom" >
+      <td>Mary jane</td>
+      <td>mary_jane</td>
+      <td>mary@example.com</td>
+      <td onclick = "myFunc()">Delete</td>
+  </tr>
+</table>
+    <footer>
+    <details>
+      <summary>Help with client data</summary>
+      <p>This is fake data used for testing purposes</p>
+   </details>
+</footer>
+
+
+
+  </div>
+ <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
